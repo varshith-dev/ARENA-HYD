@@ -1,0 +1,19 @@
+{
+  "provider": "Microsoft Global ML Building Footprints",
+  "license": "CDLA-Permissive-2.0",
+  "license_url": "https://cdla.dev/permissive-2-0/",
+  "source": "https://github.com/microsoft/GlobalMLBuildingFootprints",
+  "index": "https://bfppub.blob.core.windows.net/%24web/2026-08-13/dataset-links.csv",
+  "tiles": [
+    {
+      "Location": "India",
+      "QuadKey": "123301331",
+      "Url": "https://bfppub.z5.web.core.windows.net/2026-08-13/global-buildings.geojsonl/RegionName=India/quadkey=123301331/part-00073-110f5303-ff85-4c71-a2bf-c6070024fec8.c000.csv.gz",
+      "Size": "53.7MB",
+      "UploadDate": "2026-08-13",
+      "sha256": "6884613ae014c41d5e2a5c5f10c20f45e1a61477bbd20d80abc166e2465ad143",
+      "records_scanned": 628630
+    }
+  ],
+  "limitations": "Imagery-derived detections, not surveyed current buildings. Imagery dates vary (global release describes 2014\u20132024); the tile upload date is not a construction date. OSM and exclusions take priority."
+}

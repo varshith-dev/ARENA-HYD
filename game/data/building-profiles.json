@@ -1,0 +1,18 @@
+{
+  "description": "OSM identifiers with facade types observed in the supplied corridor images. Reference heights are estimates, not survey measurements.",
+  "profiles": {
+    "way/68883448": {"style":"cyber_towers","label":"Cyber Towers","reference":"cyber towers-bottom view.png"},
+    "way/68883415": {"style":"deccan_park","label":"TCS Deccan Park","reference":"twd-raidurg-7.5-left-view.png"},
+    "way/1152313418": {"style":"office","label":"","levels_estimate":8,"reference":"twd-raidurg-7.5-left-view.png","note":"Blue glazed office immediately north of Deccan Park; name unverified, height estimated from the supplied view."},
+    "way/416945180": {"style":"trident","label":"Trident","levels_estimate":16,"reference":"twd-raidurg-3.png"},
+    "way/89914112": {"style":"pearl","label":"Cyber Pearl I","levels_estimate":7,"reference":"twd-raidurg-7.5-rightview.png"},
+    "way/89914725": {"style":"pearl","label":"Cyber Pearl II","levels_estimate":7,"reference":"twd-raidurg-6-rightside view.png"},
+    "way/596783347": {"style":"retail_glass","label":"Whiteboard Cafe","levels_estimate":6,"shop_sign":"HDFC BANK","reference":"twd-raidurg-6-forntview.png"},
+    "way/89914117": {"style":"office","label":"Motorola","levels_estimate":6,"reference":"twd-raidurg-4.png"},
+    "way/89897992": {"style":"hotel","label":"Westin Hotel","levels_estimate":17,"reference":"OSM footprint; facade treatment inferred, not individually matched"},
+    "way/356541071": {"style":"hotel","label":"Avasa","reference":"OSM levels and footprint; facade treatment inferred"},
+    "relation/5333682": {"style":"campus","label":"National Institute of Fashion Technology","reference":"under metro-hitechcity-towards-cybertowars-1.png"}
+  },
+  "exclude": {},
+  "notes": "Existing station meshes replace metro station building footprints. Legitimate surrounding OSM buildings are retained with conservative heights when no height source exists."
+}

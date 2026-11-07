@@ -1,0 +1,179 @@
+[
+  {
+    "name": "plaster",
+    "asset": "plastered_wall_05",
+    "source": "https://polyhaven.com/a/plastered_wall_05",
+    "license": "CC0-1.0",
+    "files": [
+      {
+        "path": "game\\assets\\materials\\plaster_albedo.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/plastered_wall_05/plastered_wall_05_diff_1k.jpg",
+        "sha256": "b10e2fc12c6f6bb8a355fe7c5d6eab19222337414ce055df0701e75f5f603764"
+      },
+      {
+        "path": "game\\assets\\materials\\plaster_normal.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/plastered_wall_05/plastered_wall_05_nor_gl_1k.jpg",
+        "sha256": "560ca5b81f8c37a1bf9d44f9d20adc983d1cad3a7c6aa23835a1e1c1b63da98f"
+      },
+      {
+        "path": "game\\assets\\materials\\plaster_rough.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/plastered_wall_05/plastered_wall_05_rough_1k.jpg",
+        "sha256": "5e9439a03d2895acc902596a6a899509bb2b42dfb16ab4ea10a2a6a22c1329cf"
+      }
+    ]
+  },
+  {
+    "name": "paving",
+    "asset": "brick_pavement_02",
+    "source": "https://polyhaven.com/a/brick_pavement_02",
+    "license": "CC0-1.0",
+    "files": [
+      {
+        "path": "game\\assets\\materials\\paving_albedo.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/brick_pavement_02/brick_pavement_02_diff_1k.jpg",
+        "sha256": "fa1ce4c6da38bc75e488557420a03cb94e696c651075d36a7363cdc61c1b3944"
+      },
+      {
+        "path": "game\\assets\\materials\\paving_normal.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/brick_pavement_02/brick_pavement_02_nor_gl_1k.jpg",
+        "sha256": "b254abe7a04223339c59bfe3ba0a3eea865b61de8b2561ed56620db2190675e1"
+      },
+      {
+        "path": "game\\assets\\materials\\paving_rough.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/brick_pavement_02/brick_pavement_02_rough_1k.jpg",
+        "sha256": "c0e0446a2067317226b8296b425f2fb6a00390cb895918b8f5cbb14342d92dbf"
+      }
+    ]
+  },
+  {
+    "name": "brick",
+    "asset": "red_bricks_04",
+    "source": "https://polyhaven.com/a/red_bricks_04",
+    "license": "CC0-1.0",
+    "files": [
+      {
+        "path": "game\\assets\\materials\\brick_albedo.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/red_bricks_04/red_bricks_04_diff_1k.jpg",
+        "sha256": "c3a51662fd3e859242d949843e88e8ca7ae50dd3bb57c4cad5b544d0a16111cd"
+      },
+      {
+        "path": "game\\assets\\materials\\brick_normal.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/red_bricks_04/red_bricks_04_nor_gl_1k.jpg",
+        "sha256": "cb9d3da93ef192ddbe5f649b15bd940fe2631bb8715002ff31a0f19294b354da"
+      },
+      {
+        "path": "game\\assets\\materials\\brick_rough.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/red_bricks_04/red_bricks_04_rough_1k.jpg",
+        "sha256": "793b7206535ccdfe285d4f90366019cb13c56bae9cdcefab6bb49065155875dd"
+      }
+    ]
+  },
+  {
+    "name": "ground",
+    "asset": "aerial_grass_rock",
+    "source": "https://polyhaven.com/a/aerial_grass_rock",
+    "license": "CC0-1.0",
+    "files": [
+      {
+        "path": "game\\assets\\materials\\ground_albedo.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/aerial_grass_rock/aerial_grass_rock_diff_1k.jpg",
+        "sha256": "57b8041bfe0d0f01430e4dbaad45e7ddddf0a9fc97317f90dbc51f7b0d9e1b5d"
+      },
+      {
+        "path": "game\\assets\\materials\\ground_normal.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/aerial_grass_rock/aerial_grass_rock_nor_gl_1k.jpg",
+        "sha256": "1aa3e23bff453f152e089b9f83aa36b4901651e019f7e2ca01d5331a9bbbda78"
+      },
+      {
+        "path": "game\\assets\\materials\\ground_rough.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/aerial_grass_rock/aerial_grass_rock_rough_1k.jpg",
+        "sha256": "b9f3f76aba74007f708333c0dbe73c52eb83ea0c4187a13e2e994f888a25114a"
+      }
+    ]
+  },
+  {
+    "name": "sky",
+    "author": "Poly Haven",
+    "source": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky",
+    "license": "CC0-1.0",
+    "files": [
+      {
+        "path": "game/assets/materials/deccan_sky.hdr",
+        "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/kloofendal_48d_partly_cloudy_puresky_1k.hdr",
+        "sha256": "fd94c84997b8a3c353b62c2125a9b44e19509956986a126e472684432a02d798"
+      }
+    ]
+  },
+  {
+    "name": "concrete",
+    "asset": "concrete_wall_001",
+    "source": "https://polyhaven.com/a/concrete_wall_001",
+    "license": "CC0-1.0",
+    "resolution": "2k",
+    "files": [
+      {
+        "path": "game/assets/materials/concrete_albedo.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete_wall_001/concrete_wall_001_diff_2k.jpg",
+        "sha256": "6a96c2babde7b65aa11a72e06ea3cc37a76cecc274dfef1125ba33e41d13dd9f"
+      },
+      {
+        "path": "game/assets/materials/concrete_normal.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete_wall_001/concrete_wall_001_nor_gl_2k.jpg",
+        "sha256": "75346f4a19c1cd08f2d4ba02843d325b4c6e6dfa9acc9c022273cba72b7ba124"
+      },
+      {
+        "path": "game/assets/materials/concrete_rough.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete_wall_001/concrete_wall_001_rough_2k.jpg",
+        "sha256": "00a1c63d928e7d80413f497ffc51efdffd82f7fed73bd66e7d87351107b12922"
+      }
+    ]
+  },
+  {
+    "name": "stone",
+    "asset": "sandstone_blocks_04",
+    "source": "https://polyhaven.com/a/sandstone_blocks_04",
+    "license": "CC0-1.0",
+    "resolution": "2k",
+    "files": [
+      {
+        "path": "game/assets/materials/stone_albedo.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/sandstone_blocks_04/sandstone_blocks_04_diff_2k.jpg",
+        "sha256": "4571ff357e041bacb75ab06ad1958e74a0b396e0f3d8b9dc9d4717f704996304"
+      },
+      {
+        "path": "game/assets/materials/stone_normal.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/sandstone_blocks_04/sandstone_blocks_04_nor_gl_2k.jpg",
+        "sha256": "b367bdae7a75df039f3425a6eb9d395cd390a7a67b581bec89a44d2a31a8dbdc"
+      },
+      {
+        "path": "game/assets/materials/stone_rough.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/sandstone_blocks_04/sandstone_blocks_04_rough_2k.jpg",
+        "sha256": "98495e70e919ea892f2119100e64d8d5a5accb9982703fdd923477e7f2a346fb"
+      }
+    ]
+  },
+  {
+    "name": "asphalt",
+    "asset": "asphalt_03",
+    "source": "https://polyhaven.com/a/asphalt_03",
+    "license": "CC0-1.0",
+    "resolution": "2k",
+    "files": [
+      {
+        "path": "game/assets/materials/asphalt_albedo.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/asphalt_03/asphalt_03_diff_2k.jpg",
+        "sha256": "12621c0ec24e4dd3c51a2598483b87a5925212b1db125dd5dfcfbd0226a06922"
+      },
+      {
+        "path": "game/assets/materials/asphalt_normal.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/asphalt_03/asphalt_03_nor_gl_2k.jpg",
+        "sha256": "73416b96bf9524e4dc09f8e16e6b04875e8c90991a44286f36bd87f26415ee5d"
+      },
+      {
+        "path": "game/assets/materials/asphalt_rough.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/asphalt_03/asphalt_03_rough_2k.jpg",
+        "sha256": "86b95e4004b01437aa165a4c68903b3fb28eff9e88815dcb6bc9f11a29b08c42"
+      }
+    ]
+  }
+]

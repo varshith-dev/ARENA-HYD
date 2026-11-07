@@ -1,0 +1,156 @@
+[
+  {
+    "requested": {
+      "lat": 17.4490055,
+      "lon": 78.3831376,
+      "label": "HITEC City station",
+      "heading": 210.0,
+      "pitch": 10,
+      "fov": 75
+    },
+    "url": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=17.4490055%2C78.3831376&heading=210.0&pitch=10&fov=75"
+  },
+  {
+    "requested": {
+      "lat": 17.4490055,
+      "lon": 78.3831376,
+      "label": "HITEC City station",
+      "heading": 300.0,
+      "pitch": 10,
+      "fov": 75
+    },
+    "url": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=17.4490055%2C78.3831376&heading=300.0&pitch=10&fov=75"
+  },
+  {
+    "requested": {
+      "lat": 17.4509238,
+      "lon": 78.3818386,
+      "label": "Cyber Towers northeast",
+      "heading": 210.0,
+      "pitch": 10,
+      "fov": 75
+    },
+    "url": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=17.4509238%2C78.3818386&heading=210.0&pitch=10&fov=75"
+  },
+  {
+    "requested": {
+      "lat": 17.4509238,
+      "lon": 78.3818386,
+      "label": "Cyber Towers northeast",
+      "heading": 300.0,
+      "pitch": 10,
+      "fov": 75
+    },
+    "url": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=17.4509238%2C78.3818386&heading=300.0&pitch=10&fov=75"
+  },
+  {
+    "requested": {
+      "lat": 17.4500177,
+      "lon": 78.3795362,
+      "label": "Trident frontage",
+      "heading": 210.0,
+      "pitch": 10,
+      "fov": 75
+    },
+    "url": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=17.4500177%2C78.3795362&heading=210.0&pitch=10&fov=75"
+  },
+  {
+    "requested": {
+      "lat": 17.4500177,
+      "lon": 78.3795362,
+      "label": "Trident frontage",
+      "heading": 300.0,
+      "pitch": 10,
+      "fov": 75
+    },
+    "url": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=17.4500177%2C78.3795362&heading=300.0&pitch=10&fov=75"
+  },
+  {
+    "requested": {
+      "lat": 17.4479,
+      "lon": 78.3777,
+      "label": "Motorola junction",
+      "heading": 210.0,
+      "pitch": 10,
+      "fov": 75
+    },
+    "url": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=17.4479000%2C78.3777000&heading=210.0&pitch=10&fov=75"
+  },
+  {
+    "requested": {
+      "lat": 17.4479,
+      "lon": 78.3777,
+      "label": "Motorola junction",
+      "heading": 300.0,
+      "pitch": 10,
+      "fov": 75
+    },
+    "url": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=17.4479000%2C78.3777000&heading=300.0&pitch=10&fov=75"
+  },
+  {
+    "requested": {
+      "lat": 17.446125,
+      "lon": 78.377562,
+      "label": "Cyber Pearl and HDFC Bank",
+      "heading": 210.0,
+      "pitch": 10,
+      "fov": 75
+    },
+    "url": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=17.4461250%2C78.3775620&heading=210.0&pitch=10&fov=75"
+  },
+  {
+    "requested": {
+      "lat": 17.446125,
+      "lon": 78.377562,
+      "label": "Cyber Pearl and HDFC Bank",
+      "heading": 300.0,
+      "pitch": 10,
+      "fov": 75
+    },
+    "url": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=17.4461250%2C78.3775620&heading=300.0&pitch=10&fov=75"
+  },
+  {
+    "requested": {
+      "lat": 17.4447356,
+      "lon": 78.3772674,
+      "label": "Deccan Park",
+      "heading": 210.0,
+      "pitch": 10,
+      "fov": 75
+    },
+    "url": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=17.4447356%2C78.3772674&heading=210.0&pitch=10&fov=75"
+  },
+  {
+    "requested": {
+      "lat": 17.4447356,
+      "lon": 78.3772674,
+      "label": "Deccan Park",
+      "heading": 300.0,
+      "pitch": 10,
+      "fov": 75
+    },
+    "url": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=17.4447356%2C78.3772674&heading=300.0&pitch=10&fov=75"
+  },
+  {
+    "requested": {
+      "lat": 17.44218,
+      "lon": 78.3772038,
+      "label": "Raidurg station",
+      "heading": 210.0,
+      "pitch": 10,
+      "fov": 75
+    },
+    "url": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=17.4421800%2C78.3772038&heading=210.0&pitch=10&fov=75"
+  },
+  {
+    "requested": {
+      "lat": 17.44218,
+      "lon": 78.3772038,
+      "label": "Raidurg station",
+      "heading": 300.0,
+      "pitch": 10,
+      "fov": 75
+    },
+    "url": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=17.4421800%2C78.3772038&heading=300.0&pitch=10&fov=75"
+  }
+]

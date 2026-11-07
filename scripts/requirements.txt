@@ -1,0 +1,5 @@
+shapely==2.2.0
+pyproj==3.7.2
+numpy==2.4.6
+pillow==13.0.0
+playwright==1.64.1

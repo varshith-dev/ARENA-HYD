@@ -1,0 +1,13 @@
+{
+  "index": "https://bfppub.blob.core.windows.net/%24web/2026-08-13/dataset-links.csv",
+  "quadkey": "123301331",
+  "tiles": [
+    {
+      "Location": "India",
+      "QuadKey": "123301331",
+      "Url": "https://bfppub.z5.web.core.windows.net/2026-08-13/global-buildings.geojsonl/RegionName=India/quadkey=123301331/part-00073-110f5303-ff85-4c71-a2bf-c6070024fec8.c000.csv.gz",
+      "Size": "53.7MB",
+      "UploadDate": "2026-08-13"
+    }
+  ]
+}

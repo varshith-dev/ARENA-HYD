@@ -1,0 +1,100 @@
+{
+  "engine": "Godot 4.7.2 Compatibility",
+  "world_unit": "metre",
+  "target_platforms": [
+    "Windows x86_64",
+    "Android arm64",
+    "WebGL 2"
+  ],
+  "storage_limit_bytes": 15000000000,
+  "render_scale": 1.0,
+  "assets": [
+    {
+      "name": "Cyber Towers",
+      "source": "game/scripts/cyber_towers.gd",
+      "reference": "hyd-images/cyber towers-bottom view.png",
+      "geography": "OSM way 68883448",
+      "state": "reference reconstruction; dimensions partly estimated",
+      "pivot": "OSM projected coordinates",
+      "collision": "static sandstone surfaces",
+      "materials": [
+        "sandstone_blocks_04",
+        "original glass and metal materials"
+      ],
+      "approval_status": "User requested these existing models be preserved; not survey-certified."
+    },
+    {
+      "name": "Metro viaduct",
+      "source": "game/scripts/city.gd",
+      "reference": "hyd-images/metro-pillar-c1793.png",
+      "state": "paired OSM tracks; estimated cross section and pier spacing",
+      "collision": "static concrete surfaces",
+      "materials": [
+        "concrete_wall_001"
+      ],
+      "approval_status": "User requested these existing models be preserved; not survey-certified."
+    },
+    {
+      "name": "Road, concrete and sandstone material family",
+      "source": "docs/asset-provenance.json",
+      "resolution": "2048 x 2048",
+      "license": "CC0-1.0",
+      "filtering": "linear mipmaps with anisotropic filtering",
+      "collision": "none; assigned to world geometry",
+      "approval_status": "active and inspected in native renderer"
+    },
+    {
+      "name": "Foliage leaf and bark textures",
+      "source": "docs/foliage-provenance.json",
+      "resolution": "1024 x 1024",
+      "license": "CC0-1.0",
+      "transparency": "alpha cutout",
+      "collision": "none",
+      "visibility": "360 m High, 240 m Balanced",
+      "approval_status": "active; species and placement are approximate"
+    },
+    {
+      "name": "Shrub glTF",
+      "source": "game/assets/foliage/shrub_01/shrub_01.gltf",
+      "license": "CC0-1.0",
+      "state": "imported candidate, not placed",
+      "approval_status": "not yet selected"
+    },
+    {
+      "name": "Hyderabad building reconstruction",
+      "source": "game/scripts/hyderabad_buildings.gd",
+      "geography": "game/data/hitec-city.render.json",
+      "profile_overrides": "game/data/building-profiles.json",
+      "audit": "docs/map-audit.json",
+      "state": "Exact supplied OSM footprint coordinates; hole-aware roofs, no randomized heights. Photo-informed corridor facades; wider district uses inferred local styles.",
+      "collision": "Static wall geometry",
+      "approval_status": "Rendered and inspected; not a complete accurate city replica"
+    },
+    {
+      "name": "Rigged citizens",
+      "source": "docs/character-provenance.json",
+      "variants": 5,
+      "license": "CC0-1.0",
+      "scale": "normalized 1.76 m rest height",
+      "collision": "capsule controller",
+      "animation": "blended Idle, Walk, Run, Death, Interact source clips",
+      "approval_status": "Native preview checked; stylized adult anatomy, not scanned humans"
+    },
+    {
+      "name": "Street vehicle fleet",
+      "source": "game/scripts/vehicle_visual.gd",
+      "variants": [
+        "sedan",
+        "hatchback",
+        "suv",
+        "auto",
+        "bus"
+      ],
+      "authorship": "Original procedural mesh code",
+      "state": "Wheel arches, glazing, seats, lights, animated wheels; approximate designs",
+      "collision": "size-specific body boxes",
+      "optimization": "shared meshes and wheel spoke instancing",
+      "approval_status": "Native preview checked; not branded vehicle replicas"
+    }
+  ]
+}

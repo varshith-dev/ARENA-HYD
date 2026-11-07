@@ -1,0 +1,57 @@
+[
+  {
+    "name": "casual-character",
+    "author": "Quaternius",
+    "license": "CC0-1.0",
+    "license_source": "https://quaternius.com/packs/ultimatemodularcharacters.html",
+    "download": "https://raw.githubusercontent.com/euuuuuuan/fatal-funnel-public/main/packages/renderer/assets/models/quaternius-men/casual-character.glb",
+    "original_sha256": "fea7e71271203e7073f1a073fa1208de7402df276f87f80e149bf7589b5d46b4",
+    "path": "game/assets/characters/casual-character.glb",
+    "sha256": "32dc9978f95b0158a58343ed7cdcac9b73ddc72a6e8f788422ab0674617e4004",
+    "modifications": "Smooth vertex normals within each material; runtime metre normalization, clothing and skin palette, blended source animations. Stylized adult models, not photorealistic scans."
+  },
+  {
+    "name": "worker",
+    "author": "Quaternius",
+    "license": "CC0-1.0",
+    "license_source": "https://quaternius.com/packs/ultimatemodularcharacters.html",
+    "download": "https://raw.githubusercontent.com/euuuuuuan/fatal-funnel-public/main/packages/renderer/assets/models/quaternius-men/worker.glb",
+    "original_sha256": "9c28614f465b7dc105f908c20c22fc045f4b07caf8c5ef0e9f8049eceb6dd38d",
+    "path": "game/assets/characters/worker.glb",
+    "sha256": "a4e855895466b1f333f9d3b8b739f1ab7ae2da95248fb4d7d35d142a9dff01b7",
+    "modifications": "Smooth vertex normals within each material; runtime metre normalization, clothing and skin palette, blended source animations. Stylized adult models, not photorealistic scans."
+  },
+  {
+    "name": "business-man",
+    "author": "Quaternius",
+    "license": "CC0-1.0",
+    "license_source": "https://quaternius.com/packs/ultimatemodularcharacters.html",
+    "download": "https://raw.githubusercontent.com/nishit47/Blender-Pre-vis-Pipeline---Screenplay-to-Animatic/main/assets/Ultimate%20Modular%20Men%20Pack-glb/Business%20Man.glb",
+    "original_sha256": "82b81257c1e94cd9ee48cb1dcbe5ff506e81c9ce67cd0c5af542d8712dca546e",
+    "path": "game/assets/characters/business-man.glb",
+    "sha256": "68f03353f55a66959f3caf3a23402dea8d51f46336349207a3c952a08bc842ad",
+    "modifications": "Smooth vertex normals within each material; runtime metre normalization, clothing and skin palette, blended source animations. Stylized adult models, not photorealistic scans."
+  },
+  {
+    "name": "hoodie-character",
+    "author": "Quaternius",
+    "license": "CC0-1.0",
+    "license_source": "https://quaternius.com/packs/ultimatemodularcharacters.html",
+    "download": "https://raw.githubusercontent.com/nishit47/Blender-Pre-vis-Pipeline---Screenplay-to-Animatic/main/assets/Ultimate%20Modular%20Men%20Pack-glb/Hoodie%20Character.glb",
+    "original_sha256": "0de1bcd789d409214cf82f66f61daeb53d2f7de6d914b23e7b3660bfb3dee61e",
+    "path": "game/assets/characters/hoodie-character.glb",
+    "sha256": "1c9638d9055c66da97d4b89ad1e354555f99f8a67c43d9f9e26830519beb3961",
+    "modifications": "Smooth vertex normals within each material; runtime metre normalization, clothing and skin palette, blended source animations. Stylized adult models, not photorealistic scans."
+  },
+  {
+    "name": "woman-casual",
+    "author": "Quaternius",
+    "license": "CC0-1.0",
+    "license_source": "https://quaternius.com/packs/animatedwomen.html",
+    "download": "https://raw.githubusercontent.com/nishit47/Blender-Pre-vis-Pipeline---Screenplay-to-Animatic/main/assets/Animated%20Women%20Pack-glb/Woman%20Casual.glb",
+    "original_sha256": "99c4df0aaabd19022809facc68f5fb5f564d35df3a9893c273a31fdaacf68e96",
+    "path": "game/assets/characters/woman-casual.glb",
+    "sha256": "ad535d3ccc73d990af9b08ae1c092693bc222d48696d7d3a0f8165755b81e745",
+    "modifications": "Smooth vertex normals within each material; runtime metre normalization, clothing and skin palette, blended source animations. Stylized adult models, not photorealistic scans."
+  }
+]

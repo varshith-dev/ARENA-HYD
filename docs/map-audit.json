@@ -1,0 +1,85 @@
+{
+  "osm_timestamp": "2026-11-07T11:04:19Z",
+  "source_sha256": "43140e84aaf5ead36e17b360c18bf6dbfa6d7bda64df4cfbd3c1710b72bdf3e3",
+  "projection": "WGS84 ECEF to local east/north; origin 17.4485,78.3825; Godot z=-north",
+  "origin_ecef": [
+    1225679.9044351634,
+    5961801.667157124,
+    1900243.5170219126
+  ],
+  "statistics": {
+    "assembled_building_relations": 48,
+    "outside_district": 4,
+    "relation_member_not_extruded_twice": 7,
+    "replaced_by_existing_metro_station": 1,
+    "courtyards_preserved": 68,
+    "height_conservative_estimate": 13458,
+    "style_office": 202,
+    "style_residential": 13310,
+    "style_campus": 15,
+    "height_osm_levels": 159,
+    "style_retail": 27,
+    "style_deccan_park": 1,
+    "style_cyber_towers": 1,
+    "height_reference_estimate": 7,
+    "style_hotel": 2,
+    "style_pearl": 2,
+    "style_canopy": 21,
+    "height_osm_height": 11,
+    "style_service": 12,
+    "style_trident": 1,
+    "style_retail_glass": 1,
+    "style_construction": 40,
+    "render_buildings": 13635
+  },
+  "excluded": [
+    {
+      "id": "way/356202084",
+      "reason": "outside_district"
+    },
+    {
+      "id": "way/356223558",
+      "reason": "outside_district"
+    },
+    {
+      "id": "way/356244390",
+      "reason": "relation_member_not_extruded_twice"
+    },
+    {
+      "id": "way/356244439",
+      "reason": "relation_member_not_extruded_twice"
+    },
+    {
+      "id": "way/356244473",
+      "reason": "relation_member_not_extruded_twice"
+    },
+    {
+      "id": "way/357959374",
+      "reason": "relation_member_not_extruded_twice"
+    },
+    {
+      "id": "way/357977736",
+      "reason": "relation_member_not_extruded_twice"
+    },
+    {
+      "id": "way/411908308",
+      "reason": "relation_member_not_extruded_twice"
+    },
+    {
+      "id": "way/411908316",
+      "reason": "relation_member_not_extruded_twice"
+    },
+    {
+      "id": "way/413247233",
+      "reason": "outside_district"
+    },
+    {
+      "id": "way/416900616",
+      "reason": "outside_district"
+    },
+    {
+      "id": "way/854204711",
+      "reason": "replaced_by_existing_metro_station"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "format_version": 1,
+  "purpose": "local visual modelling references, not exported game textures",
+  "records": [
+    {
+      "requested": {
+        "lat": 17.4490055,
+        "lon": 78.3831376,
+        "label": "HITEC City station",
+        "heading": 210.0,
+        "pitch": 10,
+        "fov": 75
+      },
+      "label": "HITEC City station",
+      "requested_url": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=17.4490055%2C78.3831376&heading=210.0&pitch=10&fov=75",
+      "captured_utc": "2026-11-07T11:38:35.471895+00:00",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "device_scale_factor": 1
+      },
+      "status": "unverified_view",
+      "resolved": null,
+      "reason": "A Street View address-bar pose and rendered canvas could not both be confirmed. Do not use for automatic alignment.",
+      "panorama_offset_m": null,
+      "osm_candidates": [
+        {
+          "id": "way/116231134",
+          "name": "",
+          "distance_to_footprint_m": 59.57,
+          "bearing_deg": 200.35,
+          "view_angle_delta_deg": 9.65,
+          "height_source": "conservative_estimate",
+          "status": "candidate_only_not_an_identification"
+        },
+        {
+          "id": "way/116231135",
+          "name": "",
+          "distance_to_footprint_m": 73.44,
+          "bearing_deg": 238.22,
+          "view_angle_delta_deg": 28.22,
+          "height_source": "conservative_estimate",
+          "status": "candidate_only_not_an_identification"
+        },
+        {
+          "id": "way/116231133",
+          "name": "",
+          "distance_to_footprint_m": 97.96,
+          "bearing_deg": 254.41,
+          "view_angle_delta_deg": 44.41,
+          "height_source": "conservative_estimate",
+          "status": "candidate_only_not_an_identification"
+        },
+        {
+          "id": "way/340821780",
+          "name": "Varuna",
+          "distance_to_footprint_m": 108.48,
+          "bearing_deg": 183.36,
+          "view_angle_delta_deg": 26.64,
+          "height_source": "conservative_estimate",
+          "status": "candidate_only_not_an_identification"
+        },
+        {
+          "id": "way/340821779",
+          "name": "Vayu",
+          "distance_to_footprint_m": 125.21,
+          "bearing_deg": 223.9,
+          "view_angle_delta_deg": 13.9,
+          "height_source": "conservative_estimate",
+          "status": "candidate_only_not_an_identification"
+        }
+      ],
+      "alignment_status": "review_required",
+      "visible_capture_date": [],
+      "file": "17.4490055_78.3831376/CHECK_heading_0210.0_pitch_+10.0.png",
+      "final_url": "https://www.google.com/maps/@17.4490298,78.3831097,600a,75y,210h,100t/data=!3m7!1e1!3m5!1s_9BiK5bO-GyfR-ZEx07EnQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-10%26panoid%3D_9BiK5bO-GyfR-ZEx07EnQ%26yaw%3D210!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTEwMy4wIKXMDSoASAFQAw%3D%3D"
+    },
+    {
+      "requested": {
+        "lat": 17.4490055,
+        "lon": 78.3831376,
+        "label": "HITEC City station",
+        "heading": 300.0,
+        "pitch": 10,
+        "fov": 75
+      },
+      "label": "HITEC City station",
+      "requested_url": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=17.4490055%2C78.3831376&heading=300.0&pitch=10&fov=75",
+      "captured_utc": "2026-11-07T11:39:01.417532+00:00",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "device_scale_factor": 1
+      },
+      "status": "unverified_view",
+      "resolved": null,
+      "reason": "A Street View address-bar pose and rendered canvas could not both be confirmed. Do not use for automatic alignment.",
+      "panorama_offset_m": null,
+      "osm_candidates": [
+        {
+          "id": "relation/5167105",
+          "name": "Broadridge",
+          "distance_to_footprint_m": 105.36,
+          "bearing_deg": 298.73,
+          "view_angle_delta_deg": 1.27,
+          "height_source": "conservative_estimate",
+          "status": "candidate_only_not_an_identification"
+        },
+        {
+          "id": "way/417153535",
+          "name": "",
+          "distance_to_footprint_m": 94.27,
+          "bearing_deg": 338.86,
+          "view_angle_delta_deg": 38.86,
+          "height_source": "conservative_estimate",
+          "status": "candidate_only_not_an_identification"
+        },
+        {
+          "id": "relation/5318004",
+          "name": "",
+          "distance_to_footprint_m": 92.14,
+          "bearing_deg": 356.37,
+          "view_angle_delta_deg": 56.37,
+          "height_source": "conservative_estimate",
+          "status": "candidate_only_not_an_identification"
+        },
+        {
+          "id": "way/116231133",
+          "name": "",
+          "distance_to_footprint_m": 97.96,
+          "bearing_deg": 254.41,
+          "view_angle_delta_deg": 45.59,
+          "height_source": "conservative_estimate",
+          "status": "candidate_only_not_an_identification"
+        },
+        {
+          "id": "way/417153525",
+          "name": "",
+          "distance_to_footprint_m": 135.62,
+          "bearing_deg": 334.6,
+          "view_angle_delta_deg": 34.6,
+          "height_source": "conservative_estimate",
+          "status": "candidate_only_not_an_identification"
+        }
+      ],
+      "alignment_status": "review_required",
+      "visible_capture_date": [
+        "Apr 2026© 2026 GoogleIndiaTermsPrivacyReport a problem"
+      ],
+      "file": "17.4490055_78.3831376/CHECK_heading_0300.0_pitch_+10.0.png",
+      "final_url": "https://www.google.com/maps/@17.4490298,78.3831097,600a,75y,300h,100t/data=!3m7!1e1!3m5!1s_9BiK5bO-GyfR-ZEx07EnQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-10%26panoid%3D_9BiK5bO-GyfR-ZEx07EnQ%26yaw%3D300!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MTEwMy4wIKXMDSoASAFQAw%3D%3D"
+    }
+  ]
+}
