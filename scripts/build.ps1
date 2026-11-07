@@ -30,5 +30,5 @@ if (!$SkipAndroid) {
     if ($LASTEXITCODE -ne 0) { throw 'Android export failed' }
 }
 $bytes = (Get-ChildItem $projectRoot -Recurse -File -Force | Measure-Object -Property Length -Sum).Sum
-if ($bytes -gt 15000000000) { throw "Storage exceeds 15 GB: $bytes bytes" }
-Write-Output ('Workspace storage: {0:N2} GB / 15 GB' -f ($bytes/1GB))
+if ($bytes -gt 50000000000) { throw "Storage exceeds 50 GB: $bytes bytes" }
+Write-Output ('Workspace storage: {0:N2} GB / 50 GB' -f ($bytes/1e9))

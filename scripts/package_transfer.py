@@ -8,6 +8,7 @@ from __future__ import annotations
 import hashlib
 import json
 import subprocess
+import sys
 import time
 import zipfile
 from pathlib import Path
@@ -62,8 +63,8 @@ def main() -> None:
         raise SystemExit("Commit source before packaging so the handoff matches its Git revision.")
     paths = files_for_bundle()
     total = sum(p.stat().st_size for p in paths)
-    if total > 15_000_000_000:
-        raise SystemExit("Bundle exceeds the 15 GB project limit.")
+    if total > 50_000_000_000:
+        raise SystemExit("Bundle exceeds the current 50 GB project limit.")
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     manifest = {"format": 1, "source_commit": git("rev-parse", "HEAD"),
                 "repository": "https://github.com/varshith-dev/ARENA-HYD",
@@ -87,19 +88,72 @@ def main() -> None:
             if i % 1000 == 0:
                 print(f"Packed {i + 1}/{len(paths)}", flush=True)
         archive.writestr(PREFIX + "TRANSFER-MANIFEST.json", json.dumps(manifest, indent=2))
+    verify_archive(len(paths))
+
+
+def verify_archive(count: int) -> None:
     print("Checking every ZIP member for corruption...", flush=True)
     with zipfile.ZipFile(OUTPUT) as archive:
         bad = archive.testzip()
         if bad:
             raise RuntimeError(f"ZIP verification failed: {bad}")
-        assert len(archive.namelist()) == len(paths) + 1
-    digest = hashlib.file_digest(OUTPUT.open("rb"), "sha256").hexdigest()
+        names = archive.namelist()
+        assert len(names) == count + 1 and len(names) == len(set(names))
+        manifest = json.loads(archive.read(PREFIX + "TRANSFER-MANIFEST.json"))
+    with OUTPUT.open("rb") as source:
+        digest = hashlib.file_digest(source, "sha256").hexdigest()
     (OUTPUT.parent / "SHA256SUMS.txt").write_text(f"{digest}  {OUTPUT.name}\n", encoding="ascii")
     (OUTPUT.parent / "transfer-summary.json").write_text(json.dumps({
-        "source_commit": manifest["source_commit"], "files": len(paths), "bytes": OUTPUT.stat().st_size,
-        "uncompressed_bytes": total, "sha256": digest}, indent=2), encoding="utf-8")
+        "source_commit": manifest["source_commit"], "files": count, "bytes": OUTPUT.stat().st_size,
+        "uncompressed_bytes": manifest["uncompressed_bytes"], "sha256": digest}, indent=2), encoding="utf-8")
     print(f"Verified {OUTPUT.name}: {OUTPUT.stat().st_size / 1e9:.3f} GB; SHA256 {digest}", flush=True)
 
 
+def refresh_source() -> None:
+    """Update committed source in an existing bundle, retaining its built artifacts.
+
+    Rebuild the ZIP directory to replace entries without decompressing/recompressing
+    the large unchanged tools. Old compressed source records become unreferenced;
+    this operation must not be used to scrub secrets from an archive.
+    """
+    if git("status", "--porcelain"):
+        raise SystemExit("Commit source before refreshing the bundle.")
+    with zipfile.ZipFile(OUTPUT) as archive:
+        manifest = json.loads(archive.read(PREFIX + "TRANSFER-MANIFEST.json"))
+    old_commit = manifest["source_commit"]
+    current_commit = git("rev-parse", "HEAD")
+    def git_names(*args: str) -> set[str]:
+        data = subprocess.check_output(["git", "-C", str(ROOT), *args, "-z"])
+        return {name.decode("utf-8") for name in data.split(b"\0") if name}
+    changed = git_names("diff", "--name-only", old_commit, current_commit)
+    tracked = git_names("ls-files")
+    rows = {item["path"]: item for item in manifest["files"]}
+    updates = {name for name in tracked if name in changed or name not in rows}
+    replace = {PREFIX + name for name in changed | updates} | {PREFIX + "TRANSFER-MANIFEST.json"}
+    print(f"Refreshing {len(updates)} source files to {current_commit[:7]}", flush=True)
+    with zipfile.ZipFile(OUTPUT, "a", compression=zipfile.ZIP_DEFLATED, compresslevel=2) as archive:
+        # ZipFile writes a fresh central directory on close. Remove replaced entries
+        # from that directory so extractors see exactly one current file per name.
+        archive.filelist[:] = [item for item in archive.filelist if item.filename not in replace]
+        for name in replace:
+            archive.NameToInfo.pop(name, None)
+        for name in changed - tracked:
+            rows.pop(name, None)
+        for name in sorted(updates):
+            path = ROOT / name
+            if not allowed(path) or path.is_symlink() or not path.resolve().is_relative_to(ROOT):
+                raise ValueError(f"Refusing source path: {name}")
+            content = path.read_bytes()
+            archive.writestr(PREFIX + name, content)
+            rows[name] = {"path": name, "bytes": len(content), "sha256": hashlib.sha256(content).hexdigest()}
+        manifest["source_commit"] = current_commit
+        manifest["updated_utc"] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+        manifest["files"] = [rows[name] for name in sorted(rows)]
+        manifest["uncompressed_bytes"] = sum(row["bytes"] for row in rows.values())
+        manifest["storage_limit_bytes"] = 50_000_000_000
+        archive.writestr(PREFIX + "TRANSFER-MANIFEST.json", json.dumps(manifest, indent=2))
+    verify_archive(len(rows))
+
+
 if __name__ == "__main__":
-    main()
+    refresh_source() if "--refresh-source" in sys.argv else main()

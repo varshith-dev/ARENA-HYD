@@ -2,7 +2,9 @@
 
 ## User's current direction
 
-Build a GTA-style open-world HITEC City, Hyderabad game for Windows, Android APK and desktop/mobile web, under 15 GB. Preserve the approved Cyber Towers and metro viaduct appearance. Improve fidelity using the provided street-view references, add solid obstacle rules, a working metro train, more vehicles and pedestrians, and real building footprints in currently empty areas. Latest priority: transfer everything to the user's stronger laptop via PUBLIC GitHub, as explicitly requested. See `CONVERSATION-CONTEXT.md` for the user's full direction.
+Build a GTA-style open-world HITEC City, Hyderabad game for Windows, Android APK and desktop/mobile web. **The user has increased the new laptop's storage limit to 50 GB, superseding the original 15 GB limit.** Preserve the approved Cyber Towers and metro viaduct appearance. Improve fidelity using the provided street-view references, add solid obstacle rules, a working metro train, more vehicles and pedestrians, and real building footprints in currently empty areas. Latest priority: transfer everything to the user's stronger laptop via PUBLIC GitHub, as explicitly requested. See `CONVERSATION-CONTEXT.md` for the user's full direction.
+
+The new agent has read the guides but reported Git unavailable, shell access to GitHub failing, and browser automation unable to establish Chrome's URL. It made no code changes. Use the complete portable archive; Git is optional for setup. If automated downloading is unavailable, download the release in a normal browser and extract it before asking Codex to work on the local folder.
 
 ## Validated build included in the release
 

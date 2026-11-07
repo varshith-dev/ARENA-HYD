@@ -4,7 +4,7 @@ This document preserves the user's game direction and the current development st
 
 ## User's requirements, in order
 
-1. Build a realistic real-world game covering almost all of HITEC City, Hyderabad, using OpenStreetMap. Support Android APK, Android web and desktop web, with Windows native play. Maximum allotted storage: **15 GB**.
+1. Build a realistic real-world game covering almost all of HITEC City, Hyderabad, using OpenStreetMap. Support Android APK, Android web and desktop web, with Windows native play. Original storage allocation: **15 GB**, later increased to **50 GB for the new laptop** (see latest update below).
 2. The intended genre is **Vice City / GTA-style open-world action**, with the player as a person who can walk and drive, rather than only a driving camera.
 3. Follow real entities and alignments. The user can provide imagery and supplied **36 street-view screenshots** from HITEC City station towards Raidurg metro station in `hyd-images/`. Aim for precise landmark/sculpture geometry, roads, facades and street objects; do not claim block approximations are accurate reconstruction.
 4. NPCs should have individual activities. Add more pedestrians and vehicles and improve their models and behavior.
@@ -15,6 +15,7 @@ This document preserves the user's game direction and the current development st
 9. Create a **local Python capture tool** that opens Google Maps Street View at coordinates, visits several headings, saves images in coordinate-labelled folders, and associates them with map candidates for more accurate reconstruction.
 10. Move the entire project to another laptop with a stronger GPU and processor. Preserve source, reference images, assets, datasets, builds, toolchain and development context.
 11. Latest explicit instruction: **push all contents and context to GitHub, provide the URL quickly, and make the repository PUBLIC**.
+12. Latest transfer update: the new Codex agent read all four guides and selected collision regression testing while preserving Cyber Towers and the metro viaduct. It could not clone/run because Git was unavailable, shell access to GitHub failed and browser automation could not establish Chrome's URL. No code was changed. Finish publishing the portable release so it can retry setup and verify hashes. The user explicitly states the **new system's maximum capacity is 50 GB**; this supersedes the previous 15 GB instruction for the new workspace.
 
 ## Current project and evidence
 

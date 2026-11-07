@@ -74,4 +74,4 @@ The game writes `build/reference-0.png` and exits after capturing. Use `--refere
 - User-provided street-view screenshots are modelling references only, outside the exported game assets.
 - Rigged characters: Quaternius Ultimate Modular Men and Animated Women packs (CC0). Download URLs, original and adapted hashes, and licence pages are recorded in `docs/character-provenance.json`.
 
-The project uses the Compatibility renderer to support Windows, Android and WebGL 2. Native rendering quality depends on the device; the storage budget is 15 GB and the build script checks it.
+The project uses the Compatibility renderer to support Windows, Android and WebGL 2. Native rendering quality depends on the device. The user increased the new laptop's storage budget to **50 GB** (previously 15 GB); the build script checks the current limit.

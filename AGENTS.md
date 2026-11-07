@@ -16,7 +16,7 @@
 - Obstacles must be solid: no walking/driving through buildings, pillars, trees or other solid geometry. Test vehicle exit/re-entry, collisions, corners and recovery after changes.
 - Add more varied vehicles and NPCs with individual activities. Build a functioning metro with station stops and safe boarding. These enhancements are not yet finished.
 - Fill inappropriate empty terrain only where real footprint evidence supports development. Preserve parks, water, roads and courtyards. Supplementary footprints are candidates, not confirmed new buildings.
-- Support Windows, Android APK, Android web and desktop web. **Maximum project storage: 15 GB.** Keep compatibility and performance measurable on each target.
+- Support Windows, Android APK, Android web and desktop web. **Current maximum project storage on the new laptop: 50 GB**, updated by the user after the original 15 GB limit. Keep compatibility and performance measurable on each target.
 - The user explicitly requested **PUBLIC GitHub** and preservation of all source, references, tools, builds and project context for another laptop. Repository: https://github.com/varshith-dev/ARENA-HYD . Large tools/builds are in the release archive; they are intentionally Git-ignored.
 
 ## Work from the existing implementation

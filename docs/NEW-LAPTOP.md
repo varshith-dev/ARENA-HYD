@@ -3,11 +3,13 @@
 ## Easiest transfer
 
 1. Open https://github.com/varshith-dev/ARENA-HYD/releases (public; no sign-in needed to download).
-2. Download `ARENA-HYD-portable-windows.zip` from the handoff release. Extract it to a local folder, for example `D:\Projects\ARENA-HYD`.
+2. Download [ARENA-HYD-portable-windows.zip](https://github.com/varshith-dev/ARENA-HYD/releases/download/v0.1-handoff-20261107/ARENA-HYD-portable-windows.zip) from the handoff release. Extract it to a local folder, for example `D:\Projects\ARENA-HYD`.
 3. Double-click `RUN-GAME.cmd` to play the last validated Windows build, or `OPEN-EDITOR.cmd` to edit the current source in the included Godot 4.7.2 editor.
 4. Open the extracted `ARENA-HYD` folder as the workspace in Codex/your editor. Start with `docs/HANDOFF.md` to continue the unfinished work.
 
 The archive includes source, original street-view reference images, game assets, map datasets, Windows/APK/web builds, a portable Windows Godot editor, matching export templates, Python 3.11, and Python dependencies. It excludes machine-specific editor settings, browser profiles, signing keys and regenerable Godot caches. The first source launch/import rebuilds caches.
+
+**Current new-laptop budget: 50 GB**, increased from the original 15 GB by the user. The initial portable project occupies about 1.45 GB before caches. Git is **not required** to download, extract, verify, run or edit this archive. If shell networking or browser automation fails, download the ZIP manually in a normal browser, extract it, then open that local folder in Codex. Git can be installed/configured later for pushing changes.
 
 To verify the extracted files before editing, run `.\tools\python\python.exe scripts/verify_transfer.py`. Full requirements and outstanding work are preserved in `docs/CONVERSATION-CONTEXT.md` and `docs/HANDOFF.md`.
 
