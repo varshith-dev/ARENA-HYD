@@ -25,8 +25,10 @@ def git(*args: str) -> str:
 
 def allowed(path: Path) -> bool:
     rel = path.relative_to(ROOT)
+    # Certifi's public CA roots are needed for HTTPS in the portable Python tools.
+    public_ca_bundle = path.name == "cacert.pem" and "certifi" in rel.parts
     return (not any(part in BLOCKED_PARTS for part in rel.parts)
-            and path.suffix.lower() not in BLOCKED_SUFFIXES
+            and (path.suffix.lower() not in BLOCKED_SUFFIXES or public_ca_bundle)
             and not path.name.startswith(".env")
             and path.name != "export_credentials.cfg")
 
